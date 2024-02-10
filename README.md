@@ -1,1 +1,1 @@
-# Alura-l-gica-programa-o
+# Alura Lógica de programação
