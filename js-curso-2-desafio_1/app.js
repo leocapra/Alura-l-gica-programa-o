@@ -15,10 +15,8 @@ function mostrarPrompt() {
 }
 
 function mostrarSoma() {
-    let primeiroNumero = prompt('Digite o primeiro número:')
-    let segundoNumero = prompt('Digite o segundo número:')
-    let num1 = Number(primeiroNumero);
-    let num2 = Number(segundoNumero);
-    let terceiroNumero = num1 + num2;
+    let primeiroNumero = Number(prompt('Digite o primeiro número:'));
+    let segundoNumero = Number(prompt('Digite o segundo número:'));
+    let terceiroNumero = primeiroNumero + segundoNumero;
     alert('A soma dos dois números são: ' + terceiroNumero)
 }
